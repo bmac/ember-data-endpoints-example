@@ -1,0 +1,7 @@
+<ul>
+  {{#each model as |book|}}
+    <li>{{book.title}} by {{book.author.name}}</li>
+  {{/each}}
+</ul>
+
+{{outlet}}
